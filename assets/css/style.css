@@ -1,0 +1,211 @@
+body {
+	width: 100%;
+	background-color: #eee;
+	margin: 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+.clear {
+	clear:both;
+}
+
+.wrapper {
+	width: 960px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+header {
+	height: 75px;
+	border-bottom: 2px solid #cccccc;
+	background-color: #fff;
+}
+
+header h1 {
+	float: left;
+	background-color: #4aaaa5;
+	padding: 25px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	color: #fff;
+	margin: 0;
+	font-weight: bold;
+
+}
+
+hr {
+
+	border: 0;
+	border-top: 2px solid #cccccc;
+}
+
+nav {
+	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	color: #999;
+}
+
+nav a:hover {
+	color: #4aaaa5;
+}
+
+a.active {
+	color: #4aaaa5;
+}
+
+nav li {
+	display: inline-block;
+	padding: 16px;
+	border-right: 1px solid #e5e5e5;
+}
+
+nav li:last-child {
+	border: none;
+}
+
+section {
+	clear: both;
+	height: 100%;
+	width: 960px;
+	background-color: #ECECEC;
+	margin: 25px auto;
+}
+
+section article {
+	width: 598px;
+	background-color: #fff;
+	padding: 25px;
+	float: left;
+	border: 1px solid #dddddd;
+}
+
+section article h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border-bottom-width: 4px;
+	border-bottom-color: #dddddd;
+	font-weight: bold;
+}
+
+p {
+	line-height: 2em;
+	margin: 25px auto;
+}
+
+#CarynProfile {
+	width: 100px;
+	float: left;
+	margin: 25px 15px 0 0;
+}
+
+section aside {
+	width: 238px;
+	height: 150px;
+	float: right;
+	background-color: #fff;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid #dddddd;
+}
+
+section aside h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+ul {
+	margin-top: 15px;
+	padding: 0px;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li img {
+	height: 50px;
+	width: 50px;
+}
+
+form {
+	margin-top: 20px;
+}
+
+.form-input {
+	width: 96%;
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+#message {
+	height: 225px;
+	border: 1px solid #ddd;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    border: 1px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 25px;
+    font-weight: 300;
+}
+
+footer {
+	clear: both;
+	padding: 20px;
+	font-size: 12px;
+	color: #dddddd;
+	text-align: center;
+	background-color: #666666;
+	border-top: 7px solid #4aaaa5;
+}
+
+.portfolio-item {
+	position: relative;
+	float: left;
+	text-align: center;
+	margin: 12px;
+}
+
+.portfolio-item h4 {
+	position: absolute;
+	width: 275px;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	bottom: 10px;
+}
+
+@media (max-width: 576px) { 
+	.wrapper, body, footer, section, section article, section aside {
+		width: 100%;
+	}
+	section article, section aside {
+		float:none;
+	}
+}
+
+@media (min-width: 768px) {
+
+ }
+
+@media (min-width: 992px) { 
+
+ }
