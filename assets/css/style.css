@@ -215,7 +215,7 @@ footer {
 	}
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 .wrapper, body, footer, section, section article, section aside, section aside h3 {
 		width: 100%;
 		margin: 0px;
@@ -237,7 +237,3 @@ footer {
 		margin: 49px;
 	}
 }
-
-@media (min-width: 992px) { 
-
- }
